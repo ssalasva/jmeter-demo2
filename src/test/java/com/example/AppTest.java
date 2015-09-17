@@ -1,5 +1,6 @@
 package com.example;
 
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -35,4 +36,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+   
+
+	public void testPrinth() {
+		App myClase= new App();
+		assertEquals("debe 1", 1, myClase.printh());
+	}
+
 }
