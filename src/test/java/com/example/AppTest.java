@@ -37,9 +37,7 @@ public class AppTest
         assertTrue( true );
     }
     
-   
-
-	public void testPrinth() {
+   	public void testPrinth() {
 		App myClase= new App();
 		assertEquals("debe 1", 1, myClase.printh());
 	}
